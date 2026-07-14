@@ -1,0 +1,59 @@
+.preview-container {
+    background: #000;
+    border-radius: 30px;
+    border: 8px solid #333;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.wa-header {
+    background: #075e54;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.wa-body {
+    background: #e5ddd5;
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble {
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    position: relative;
+    color: #000;
+}
+
+.bubble.bot {
+    background: white;
+    align-self: flex-start;
+}
+
+.bubble.user {
+    background: #dcf8c6;
+    align-self: flex-end;
+}
+
+.wa-footer {
+    background: #f0f0f0;
+    padding: 10px;
+    display: flex;
+}
+
+.wa-input {
+    flex-grow: 1;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+}
